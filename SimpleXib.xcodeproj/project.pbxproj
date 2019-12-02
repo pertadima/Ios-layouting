@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		263152D9239506A700CF6EA2 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263152D8239506A700CF6EA2 /* PaddingTextField.swift */; };
 		265CB3A72394FD2F0040913D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3A62394FD2F0040913D /* AppDelegate.swift */; };
 		265CB3A92394FD2F0040913D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3A82394FD2F0040913D /* SceneDelegate.swift */; };
 		265CB3AB2394FD2F0040913D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3AA2394FD2F0040913D /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		263152D8239506A700CF6EA2 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		265CB3A32394FD2F0040913D /* SimpleXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265CB3A62394FD2F0040913D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		265CB3A82394FD2F0040913D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		265CB3A52394FD2F0040913D /* SimpleXib */ = {
 			isa = PBXGroup;
 			children = (
+				265CB3DE239503370040913D /* CustomComponent */,
 				265CB3D62394FD5F0040913D /* UI */,
 				265CB3A62394FD2F0040913D /* AppDelegate.swift */,
 				265CB3A82394FD2F0040913D /* SceneDelegate.swift */,
@@ -148,6 +151,14 @@
 				265CB3DC2394FE1A0040913D /* LoginView.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		265CB3DE239503370040913D /* CustomComponent */ = {
+			isa = PBXGroup;
+			children = (
+				263152D8239506A700CF6EA2 /* PaddingTextField.swift */,
+			);
+			path = CustomComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 				265CB3AB2394FD2F0040913D /* ViewController.swift in Sources */,
 				265CB3A72394FD2F0040913D /* AppDelegate.swift in Sources */,
 				265CB3A92394FD2F0040913D /* SceneDelegate.swift in Sources */,
+				263152D9239506A700CF6EA2 /* PaddingTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
