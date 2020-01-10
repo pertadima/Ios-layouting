@@ -14,7 +14,13 @@
 		26360A0623C903DD0042FD0F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A0523C903DD0042FD0F /* ChatViewController.swift */; };
 		26360A0A23C904610042FD0F /* ChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A0923C904610042FD0F /* ChatView.xib */; };
 		26360A2023C90B080042FD0F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A1F23C90B080042FD0F /* MainViewController.swift */; };
-		26360A2223C90BEE0042FD0F /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A2123C90BEE0042FD0F /* MainView.xib */; };
+		26360A2F23C916470042FD0F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A2D23C916470042FD0F /* HomeViewController.swift */; };
+		26360A3023C916470042FD0F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A2E23C916470042FD0F /* HomeViewController.xib */; };
+		26360A3523C9168C0042FD0F /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A3323C9168C0042FD0F /* NotificationViewController.swift */; };
+		26360A3623C9168C0042FD0F /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A3423C9168C0042FD0F /* NotificationViewController.xib */; };
+		26360A3923C916980042FD0F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A3723C916980042FD0F /* ProfileViewController.swift */; };
+		26360A3A23C916980042FD0F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A3823C916980042FD0F /* ProfileViewController.xib */; };
+		26360A3D23C917390042FD0F /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A3C23C917390042FD0F /* MenuBar.swift */; };
 		265CB3A72394FD2F0040913D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3A62394FD2F0040913D /* AppDelegate.swift */; };
 		265CB3A92394FD2F0040913D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3A82394FD2F0040913D /* SceneDelegate.swift */; };
 		265CB3AB2394FD2F0040913D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3AA2394FD2F0040913D /* ViewController.swift */; };
@@ -53,7 +59,13 @@
 		26360A0523C903DD0042FD0F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		26360A0923C904610042FD0F /* ChatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatView.xib; sourceTree = "<group>"; };
 		26360A1F23C90B080042FD0F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		26360A2123C90BEE0042FD0F /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		26360A2D23C916470042FD0F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		26360A2E23C916470042FD0F /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		26360A3323C9168C0042FD0F /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		26360A3423C9168C0042FD0F /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		26360A3723C916980042FD0F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		26360A3823C916980042FD0F /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		26360A3C23C917390042FD0F /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		265CB3A32394FD2F0040913D /* SimpleXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265CB3A62394FD2F0040913D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		265CB3A82394FD2F0040913D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,10 +142,49 @@
 		26360A1A23C9095D0042FD0F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				26360A2C23C9161F0042FD0F /* Tab */,
 				26360A1F23C90B080042FD0F /* MainViewController.swift */,
-				26360A2123C90BEE0042FD0F /* MainView.xib */,
+				26360A3C23C917390042FD0F /* MenuBar.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		26360A2B23C916190042FD0F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				26360A2D23C916470042FD0F /* HomeViewController.swift */,
+				26360A2E23C916470042FD0F /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		26360A2C23C9161F0042FD0F /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				26360A3223C9167A0042FD0F /* Profile */,
+				26360A3123C916740042FD0F /* Notification */,
+				26360A0023C903630042FD0F /* Chat */,
+				26360A2B23C916190042FD0F /* Home */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		26360A3123C916740042FD0F /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				26360A3323C9168C0042FD0F /* NotificationViewController.swift */,
+				26360A3423C9168C0042FD0F /* NotificationViewController.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		26360A3223C9167A0042FD0F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				26360A3723C916980042FD0F /* ProfileViewController.swift */,
+				26360A3823C916980042FD0F /* ProfileViewController.xib */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		265CB39A2394FD2F0040913D = {
@@ -196,7 +247,6 @@
 			isa = PBXGroup;
 			children = (
 				26360A1A23C9095D0042FD0F /* Main */,
-				26360A0023C903630042FD0F /* Chat */,
 				265CB3D72394FD670040913D /* Login */,
 			);
 			path = UI;
@@ -334,12 +384,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26360A3A23C916980042FD0F /* ProfileViewController.xib in Resources */,
 				26360A0A23C904610042FD0F /* ChatView.xib in Resources */,
 				265CB3B32394FD3F0040913D /* LaunchScreen.storyboard in Resources */,
 				265CB3B02394FD3F0040913D /* Assets.xcassets in Resources */,
 				263152DF23950B9C00CF6EA2 /* LoginView.xib in Resources */,
 				263152DC23950B4E00CF6EA2 /* Localization.strings in Resources */,
-				26360A2223C90BEE0042FD0F /* MainView.xib in Resources */,
+				26360A3623C9168C0042FD0F /* NotificationViewController.xib in Resources */,
+				26360A3023C916470042FD0F /* HomeViewController.xib in Resources */,
 				265CB3DB2394FDB00040913D /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,13 +421,17 @@
 				26360A2023C90B080042FD0F /* MainViewController.swift in Sources */,
 				265CB3AB2394FD2F0040913D /* ViewController.swift in Sources */,
 				26360A0623C903DD0042FD0F /* ChatViewController.swift in Sources */,
+				26360A3923C916980042FD0F /* ProfileViewController.swift in Sources */,
 				267D85832395A28900677EEA /* LozalizedLabel.swift in Sources */,
 				26360A0323C903730042FD0F /* Chat.swift in Sources */,
 				267D85852395A33C00677EEA /* UIButton.swift in Sources */,
 				265CB3A72394FD2F0040913D /* AppDelegate.swift in Sources */,
 				267D857D239585C900677EEA /* AppUtils.swift in Sources */,
+				26360A3523C9168C0042FD0F /* NotificationViewController.swift in Sources */,
 				265CB3A92394FD2F0040913D /* SceneDelegate.swift in Sources */,
 				263152D9239506A700CF6EA2 /* PaddingTextField.swift in Sources */,
+				26360A2F23C916470042FD0F /* HomeViewController.swift in Sources */,
+				26360A3D23C917390042FD0F /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
