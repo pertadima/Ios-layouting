@@ -1,0 +1,11 @@
+/* 
+  EnglishLocalization.strings
+  SimpleXib
+
+  Created by Irfan Pertadima on 12/2/19.
+  Copyright © 2019 Irfan Pertadima. All rights reserved.
+*/
+
+"text_login" = "Login";
+"text_email_placeholder" = "Enter you email here...";
+"text_doesnt_have_account" = "Doesn't have an account yet ?";

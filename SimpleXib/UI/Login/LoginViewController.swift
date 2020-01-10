@@ -8,7 +8,14 @@
 
 import UIKit
 class LoginViewController: UIViewController {
+
+    @IBOutlet weak var scrollview: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+    }
+    
+    @IBAction func loginAction(_ sender: Any) {
+        navigationController?.pushViewController(MainViewController(), animated: true)
     }
 }

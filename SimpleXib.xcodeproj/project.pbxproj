@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		263152D9239506A700CF6EA2 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263152D8239506A700CF6EA2 /* PaddingTextField.swift */; };
+		263152DC23950B4E00CF6EA2 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 263152DE23950B4E00CF6EA2 /* Localization.strings */; };
+		263152DF23950B9C00CF6EA2 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263152E123950B9C00CF6EA2 /* LoginView.xib */; };
+		26360A0323C903730042FD0F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A0223C903730042FD0F /* Chat.swift */; };
+		26360A0623C903DD0042FD0F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A0523C903DD0042FD0F /* ChatViewController.swift */; };
+		26360A0A23C904610042FD0F /* ChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A0923C904610042FD0F /* ChatView.xib */; };
+		26360A2023C90B080042FD0F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A1F23C90B080042FD0F /* MainViewController.swift */; };
+		26360A2223C90BEE0042FD0F /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A2123C90BEE0042FD0F /* MainView.xib */; };
 		265CB3A72394FD2F0040913D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3A62394FD2F0040913D /* AppDelegate.swift */; };
 		265CB3A92394FD2F0040913D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3A82394FD2F0040913D /* SceneDelegate.swift */; };
 		265CB3AB2394FD2F0040913D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3AA2394FD2F0040913D /* ViewController.swift */; };
@@ -17,7 +24,9 @@
 		265CB3C92394FD3F0040913D /* SimpleXibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3C82394FD3F0040913D /* SimpleXibUITests.swift */; };
 		265CB3D92394FD740040913D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3D82394FD740040913D /* LoginViewController.swift */; };
 		265CB3DB2394FDB00040913D /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265CB3DA2394FDB00040913D /* Color.xcassets */; };
-		265CB3DD2394FE1A0040913D /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265CB3DC2394FE1A0040913D /* LoginView.xib */; };
+		267D857D239585C900677EEA /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D857C239585C900677EEA /* AppUtils.swift */; };
+		267D85832395A28900677EEA /* LozalizedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D85822395A28900677EEA /* LozalizedLabel.swift */; };
+		267D85852395A33C00677EEA /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D85842395A33C00677EEA /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +48,12 @@
 
 /* Begin PBXFileReference section */
 		263152D8239506A700CF6EA2 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		263152DD23950B4E00CF6EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		26360A0223C903730042FD0F /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		26360A0523C903DD0042FD0F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		26360A0923C904610042FD0F /* ChatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatView.xib; sourceTree = "<group>"; };
+		26360A1F23C90B080042FD0F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		26360A2123C90BEE0042FD0F /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		265CB3A32394FD2F0040913D /* SimpleXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265CB3A62394FD2F0040913D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		265CB3A82394FD2F0040913D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +69,11 @@
 		265CB3CA2394FD3F0040913D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		265CB3D82394FD740040913D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		265CB3DA2394FDB00040913D /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
-		265CB3DC2394FE1A0040913D /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		267D85782395857500677EEA /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localization.strings; sourceTree = "<group>"; };
+		267D857C239585C900677EEA /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		267D857E2395A13F00677EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoginView.xib; sourceTree = "<group>"; };
+		267D85822395A28900677EEA /* LozalizedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LozalizedLabel.swift; sourceTree = "<group>"; };
+		267D85842395A33C00677EEA /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +101,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26360A0023C903630042FD0F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				26360A0423C903CE0042FD0F /* View */,
+				26360A0123C903690042FD0F /* Data */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		26360A0123C903690042FD0F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				26360A0223C903730042FD0F /* Chat.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		26360A0423C903CE0042FD0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26360A0523C903DD0042FD0F /* ChatViewController.swift */,
+				26360A0923C904610042FD0F /* ChatView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26360A1A23C9095D0042FD0F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				26360A1F23C90B080042FD0F /* MainViewController.swift */,
+				26360A2123C90BEE0042FD0F /* MainView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		265CB39A2394FD2F0040913D = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +159,7 @@
 		265CB3A52394FD2F0040913D /* SimpleXib */ = {
 			isa = PBXGroup;
 			children = (
+				267D857B239585BD00677EEA /* Utils */,
 				265CB3DE239503370040913D /* CustomComponent */,
 				265CB3D62394FD5F0040913D /* UI */,
 				265CB3A62394FD2F0040913D /* AppDelegate.swift */,
@@ -114,6 +169,7 @@
 				265CB3AF2394FD3F0040913D /* Assets.xcassets */,
 				265CB3B12394FD3F0040913D /* LaunchScreen.storyboard */,
 				265CB3B42394FD3F0040913D /* Info.plist */,
+				263152DE23950B4E00CF6EA2 /* Localization.strings */,
 			);
 			path = SimpleXib;
 			sourceTree = "<group>";
@@ -139,6 +195,8 @@
 		265CB3D62394FD5F0040913D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				26360A1A23C9095D0042FD0F /* Main */,
+				26360A0023C903630042FD0F /* Chat */,
 				265CB3D72394FD670040913D /* Login */,
 			);
 			path = UI;
@@ -148,7 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				265CB3D82394FD740040913D /* LoginViewController.swift */,
-				265CB3DC2394FE1A0040913D /* LoginView.xib */,
+				263152E123950B9C00CF6EA2 /* LoginView.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -156,9 +214,19 @@
 		265CB3DE239503370040913D /* CustomComponent */ = {
 			isa = PBXGroup;
 			children = (
+				267D85822395A28900677EEA /* LozalizedLabel.swift */,
+				267D85842395A33C00677EEA /* UIButton.swift */,
 				263152D8239506A700CF6EA2 /* PaddingTextField.swift */,
 			);
 			path = CustomComponent;
+			sourceTree = "<group>";
+		};
+		267D857B239585BD00677EEA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				267D857C239585C900677EEA /* AppUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +315,7 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 265CB39A2394FD2F0040913D;
 			productRefGroup = 265CB3A42394FD2F0040913D /* Products */;
@@ -265,9 +334,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26360A0A23C904610042FD0F /* ChatView.xib in Resources */,
 				265CB3B32394FD3F0040913D /* LaunchScreen.storyboard in Resources */,
 				265CB3B02394FD3F0040913D /* Assets.xcassets in Resources */,
-				265CB3DD2394FE1A0040913D /* LoginView.xib in Resources */,
+				263152DF23950B9C00CF6EA2 /* LoginView.xib in Resources */,
+				263152DC23950B4E00CF6EA2 /* Localization.strings in Resources */,
+				26360A2223C90BEE0042FD0F /* MainView.xib in Resources */,
 				265CB3DB2394FDB00040913D /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,8 +366,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				265CB3D92394FD740040913D /* LoginViewController.swift in Sources */,
+				26360A2023C90B080042FD0F /* MainViewController.swift in Sources */,
 				265CB3AB2394FD2F0040913D /* ViewController.swift in Sources */,
+				26360A0623C903DD0042FD0F /* ChatViewController.swift in Sources */,
+				267D85832395A28900677EEA /* LozalizedLabel.swift in Sources */,
+				26360A0323C903730042FD0F /* Chat.swift in Sources */,
+				267D85852395A33C00677EEA /* UIButton.swift in Sources */,
 				265CB3A72394FD2F0040913D /* AppDelegate.swift in Sources */,
+				267D857D239585C900677EEA /* AppUtils.swift in Sources */,
 				265CB3A92394FD2F0040913D /* SceneDelegate.swift in Sources */,
 				263152D9239506A700CF6EA2 /* PaddingTextField.swift in Sources */,
 			);
@@ -333,6 +411,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		263152DE23950B4E00CF6EA2 /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263152DD23950B4E00CF6EA2 /* en */,
+				267D85782395857500677EEA /* id */,
+			);
+			name = Localization.strings;
+			sourceTree = "<group>";
+		};
+		263152E123950B9C00CF6EA2 /* LoginView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267D857E2395A13F00677EEA /* Base */,
+			);
+			name = LoginView.xib;
+			sourceTree = "<group>";
+		};
 		265CB3B12394FD3F0040913D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -408,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
