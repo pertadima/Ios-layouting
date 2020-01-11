@@ -17,6 +17,11 @@ class MainViewController: UITabBarController {
         viewControllers = setupBottomBar()
         tabBar.barTintColor = UIColor(named: "ColorWhite")
         tabBar.tintColor = UIColor(named: "ColorPrimary")
+        
+        if let tabItems = tabBar.items {
+            tabItems[1].badgeValue = "4"
+            tabItems[2].badgeValue = "10"
+        }
     }
     
     private func setupBottomBar() -> [UIViewController] {

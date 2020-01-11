@@ -17,7 +17,7 @@ enum MenuBar {
         case .chat:
             return "Chat"
         case .notification:
-            return "Community"
+            return "Notification"
         case .profile:
             return "Profile"
         }

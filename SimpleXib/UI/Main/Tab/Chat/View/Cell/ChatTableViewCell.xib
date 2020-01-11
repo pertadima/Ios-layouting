@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="KGk-i7-Jjw" customClass="ChatTableViewCell" customModule="SimpleXib" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Irfan Pertadima" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FsY-hL-Dqs">
+                        <rect key="frame" x="20" y="20" width="127.5" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" name="ColorBlack"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 Januari 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEw-g3-x0d">
+                        <rect key="frame" x="229" y="25" width="71" height="11"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" name="ColorPrimary"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fws-uG-eIL">
+                        <rect key="frame" x="20" y="61" width="280" height="35"/>
+                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" name="ColorTextDescription"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PEw-g3-x0d" firstAttribute="centerY" secondItem="FsY-hL-Dqs" secondAttribute="centerY" id="8rf-KK-fHI"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fws-uG-eIL" secondAttribute="bottom" constant="20" id="BQw-Qh-xYb"/>
+                    <constraint firstItem="fws-uG-eIL" firstAttribute="top" secondItem="FsY-hL-Dqs" secondAttribute="bottom" constant="20" id="Iky-fc-Nf9"/>
+                    <constraint firstItem="FsY-hL-Dqs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Nro-cC-Zck"/>
+                    <constraint firstItem="PEw-g3-x0d" firstAttribute="leading" secondItem="FsY-hL-Dqs" secondAttribute="trailing" priority="1" constant="20" id="OKN-qT-ygo"/>
+                    <constraint firstItem="FsY-hL-Dqs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="a8Z-8p-kSf"/>
+                    <constraint firstAttribute="trailing" secondItem="PEw-g3-x0d" secondAttribute="trailing" priority="995" constant="20" id="aov-Hu-Qh9"/>
+                    <constraint firstAttribute="trailing" secondItem="fws-uG-eIL" secondAttribute="trailing" constant="20" id="jUY-2M-uFv"/>
+                    <constraint firstItem="fws-uG-eIL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="lFE-eg-hhm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDate" destination="PEw-g3-x0d" id="Iyz-XC-Ixi"/>
+                <outlet property="lblMessage" destination="fws-uG-eIL" id="Agh-M5-Tz4"/>
+                <outlet property="lblName" destination="FsY-hL-Dqs" id="N40-1K-IOn"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="180.46875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="ColorBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ColorPrimary">
+            <color red="1" green="0.36500000953674316" blue="0.17599999904632568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ColorTextDescription">
+            <color red="0.30513909125504968" green="0.32039181472081213" blue="0.31894827421334543" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

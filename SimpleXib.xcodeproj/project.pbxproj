@@ -21,6 +21,9 @@
 		26360A3923C916980042FD0F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A3723C916980042FD0F /* ProfileViewController.swift */; };
 		26360A3A23C916980042FD0F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A3823C916980042FD0F /* ProfileViewController.xib */; };
 		26360A3D23C917390042FD0F /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A3C23C917390042FD0F /* MenuBar.swift */; };
+		26360A4323C91E030042FD0F /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A4123C91E030042FD0F /* ChatTableViewCell.swift */; };
+		26360A4423C91E030042FD0F /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A4223C91E030042FD0F /* ChatTableViewCell.xib */; };
+		26360A4623C921EB0042FD0F /* ChatTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A4523C921EB0042FD0F /* ChatTableViewControllerDelegate.swift */; };
 		265CB3A72394FD2F0040913D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3A62394FD2F0040913D /* AppDelegate.swift */; };
 		265CB3A92394FD2F0040913D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3A82394FD2F0040913D /* SceneDelegate.swift */; };
 		265CB3AB2394FD2F0040913D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CB3AA2394FD2F0040913D /* ViewController.swift */; };
@@ -66,6 +69,9 @@
 		26360A3723C916980042FD0F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		26360A3823C916980042FD0F /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		26360A3C23C917390042FD0F /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		26360A4123C91E030042FD0F /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		26360A4223C91E030042FD0F /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		26360A4523C921EB0042FD0F /* ChatTableViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 		265CB3A32394FD2F0040913D /* SimpleXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265CB3A62394FD2F0040913D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		265CB3A82394FD2F0040913D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,8 +139,10 @@
 		26360A0423C903CE0042FD0F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				26360A3E23C91DCF0042FD0F /* Cell */,
 				26360A0523C903DD0042FD0F /* ChatViewController.swift */,
 				26360A0923C904610042FD0F /* ChatView.xib */,
+				26360A4523C921EB0042FD0F /* ChatTableViewControllerDelegate.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +193,15 @@
 				26360A3823C916980042FD0F /* ProfileViewController.xib */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		26360A3E23C91DCF0042FD0F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				26360A4123C91E030042FD0F /* ChatTableViewCell.swift */,
+				26360A4223C91E030042FD0F /* ChatTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		265CB39A2394FD2F0040913D = {
@@ -391,6 +408,7 @@
 				263152DF23950B9C00CF6EA2 /* LoginView.xib in Resources */,
 				263152DC23950B4E00CF6EA2 /* Localization.strings in Resources */,
 				26360A3623C9168C0042FD0F /* NotificationViewController.xib in Resources */,
+				26360A4423C91E030042FD0F /* ChatTableViewCell.xib in Resources */,
 				26360A3023C916470042FD0F /* HomeViewController.xib in Resources */,
 				265CB3DB2394FDB00040913D /* Color.xcassets in Resources */,
 			);
@@ -419,9 +437,11 @@
 			files = (
 				265CB3D92394FD740040913D /* LoginViewController.swift in Sources */,
 				26360A2023C90B080042FD0F /* MainViewController.swift in Sources */,
+				26360A4623C921EB0042FD0F /* ChatTableViewControllerDelegate.swift in Sources */,
 				265CB3AB2394FD2F0040913D /* ViewController.swift in Sources */,
 				26360A0623C903DD0042FD0F /* ChatViewController.swift in Sources */,
 				26360A3923C916980042FD0F /* ProfileViewController.swift in Sources */,
+				26360A4323C91E030042FD0F /* ChatTableViewCell.swift in Sources */,
 				267D85832395A28900677EEA /* LozalizedLabel.swift in Sources */,
 				26360A0323C903730042FD0F /* Chat.swift in Sources */,
 				267D85852395A33C00677EEA /* UIButton.swift in Sources */,
