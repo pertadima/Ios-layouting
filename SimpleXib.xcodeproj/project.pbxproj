@@ -10,6 +10,9 @@
 		263152D9239506A700CF6EA2 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263152D8239506A700CF6EA2 /* PaddingTextField.swift */; };
 		263152DC23950B4E00CF6EA2 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 263152DE23950B4E00CF6EA2 /* Localization.strings */; };
 		263152DF23950B9C00CF6EA2 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263152E123950B9C00CF6EA2 /* LoginView.xib */; };
+		2631B3EE23C98D340099D15C /* ChatMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631B3ED23C98D340099D15C /* ChatMapper.swift */; };
+		2631B3F023C992C50099D15C /* ChatHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2631B3EF23C992C50099D15C /* ChatHeaderView.swift */; };
+		2631B3F223C992DE0099D15C /* ChatHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2631B3F123C992DE0099D15C /* ChatHeaderViewCell.xib */; };
 		26360A0323C903730042FD0F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A0223C903730042FD0F /* Chat.swift */; };
 		26360A0623C903DD0042FD0F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26360A0523C903DD0042FD0F /* ChatViewController.swift */; };
 		26360A0A23C904610042FD0F /* ChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26360A0923C904610042FD0F /* ChatView.xib */; };
@@ -35,7 +38,8 @@
 		265CB3DB2394FDB00040913D /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265CB3DA2394FDB00040913D /* Color.xcassets */; };
 		267D857D239585C900677EEA /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D857C239585C900677EEA /* AppUtils.swift */; };
 		267D85832395A28900677EEA /* LozalizedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D85822395A28900677EEA /* LozalizedLabel.swift */; };
-		267D85852395A33C00677EEA /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D85842395A33C00677EEA /* UIButton.swift */; };
+		26F66C2924134F1200E7DA8C /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F66C2824134F1200E7DA8C /* CustomLabel.swift */; };
+		26F66C2C24135EAE00E7DA8C /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F66C2B24135EAE00E7DA8C /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,9 @@
 /* Begin PBXFileReference section */
 		263152D8239506A700CF6EA2 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		263152DD23950B4E00CF6EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		2631B3ED23C98D340099D15C /* ChatMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMapper.swift; sourceTree = "<group>"; };
+		2631B3EF23C992C50099D15C /* ChatHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHeaderView.swift; sourceTree = "<group>"; };
+		2631B3F123C992DE0099D15C /* ChatHeaderViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatHeaderViewCell.xib; sourceTree = "<group>"; };
 		26360A0223C903730042FD0F /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		26360A0523C903DD0042FD0F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		26360A0923C904610042FD0F /* ChatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatView.xib; sourceTree = "<group>"; };
@@ -91,7 +98,8 @@
 		267D857C239585C900677EEA /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
 		267D857E2395A13F00677EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoginView.xib; sourceTree = "<group>"; };
 		267D85822395A28900677EEA /* LozalizedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LozalizedLabel.swift; sourceTree = "<group>"; };
-		267D85842395A33C00677EEA /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		26F66C2824134F1200E7DA8C /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		26F66C2B24135EAE00E7DA8C /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				26360A0223C903730042FD0F /* Chat.swift */,
+				2631B3ED23C98D340099D15C /* ChatMapper.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -200,6 +209,8 @@
 			children = (
 				26360A4123C91E030042FD0F /* ChatTableViewCell.swift */,
 				26360A4223C91E030042FD0F /* ChatTableViewCell.xib */,
+				2631B3EF23C992C50099D15C /* ChatHeaderView.swift */,
+				2631B3F123C992DE0099D15C /* ChatHeaderViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -227,6 +238,7 @@
 		265CB3A52394FD2F0040913D /* SimpleXib */ = {
 			isa = PBXGroup;
 			children = (
+				26F66C2A24135E9600E7DA8C /* Extentions */,
 				267D857B239585BD00677EEA /* Utils */,
 				265CB3DE239503370040913D /* CustomComponent */,
 				265CB3D62394FD5F0040913D /* UI */,
@@ -282,8 +294,8 @@
 			isa = PBXGroup;
 			children = (
 				267D85822395A28900677EEA /* LozalizedLabel.swift */,
-				267D85842395A33C00677EEA /* UIButton.swift */,
 				263152D8239506A700CF6EA2 /* PaddingTextField.swift */,
+				26F66C2824134F1200E7DA8C /* CustomLabel.swift */,
 			);
 			path = CustomComponent;
 			sourceTree = "<group>";
@@ -294,6 +306,14 @@
 				267D857C239585C900677EEA /* AppUtils.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		26F66C2A24135E9600E7DA8C /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				26F66C2B24135EAE00E7DA8C /* UIImageView.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +431,7 @@
 				26360A4423C91E030042FD0F /* ChatTableViewCell.xib in Resources */,
 				26360A3023C916470042FD0F /* HomeViewController.xib in Resources */,
 				265CB3DB2394FDB00040913D /* Color.xcassets in Resources */,
+				2631B3F223C992DE0099D15C /* ChatHeaderViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,11 +465,14 @@
 				26360A4323C91E030042FD0F /* ChatTableViewCell.swift in Sources */,
 				267D85832395A28900677EEA /* LozalizedLabel.swift in Sources */,
 				26360A0323C903730042FD0F /* Chat.swift in Sources */,
-				267D85852395A33C00677EEA /* UIButton.swift in Sources */,
 				265CB3A72394FD2F0040913D /* AppDelegate.swift in Sources */,
 				267D857D239585C900677EEA /* AppUtils.swift in Sources */,
+				26F66C2924134F1200E7DA8C /* CustomLabel.swift in Sources */,
 				26360A3523C9168C0042FD0F /* NotificationViewController.swift in Sources */,
+				2631B3F023C992C50099D15C /* ChatHeaderView.swift in Sources */,
 				265CB3A92394FD2F0040913D /* SceneDelegate.swift in Sources */,
+				2631B3EE23C98D340099D15C /* ChatMapper.swift in Sources */,
+				26F66C2C24135EAE00E7DA8C /* UIImageView.swift in Sources */,
 				263152D9239506A700CF6EA2 /* PaddingTextField.swift in Sources */,
 				26360A2F23C916470042FD0F /* HomeViewController.swift in Sources */,
 				26360A3D23C917390042FD0F /* MenuBar.swift in Sources */,
